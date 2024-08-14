@@ -1,6 +1,6 @@
 # Updating Volume Mounts for Docker Compose Containers
 
-By default theis ARR suite of software is already configured to set up volume mounts to their prespective config files and to ``/mnt/media/tv`` and ``/mnt/media/movies``.
+By default theis ARR suite of software is already configured to set up volume mounts to their prespective config files and to ``/mnt/media`` and ``/mnt/media/downloads``.
 
  **If you wish to change them;** 
 
@@ -8,10 +8,8 @@ This guide will show you how to update volume mounts for Plex, Radarr, Sonarr, a
 
  We’ll be adding two new volume mounts:
 
-- `/mnt/media/tv`
-- `/mnt/media/movies`
-
- Media you put in these folders will dictate where your media is saved when you download it and it's processed by the ARR stack of software.
+- `/mnt/media/`
+- `/mnt/media/downloads`
 
 
 ## Steps to Update Volume Mounts
@@ -36,6 +34,14 @@ This guide will show you how to update volume mounts for Plex, Radarr, Sonarr, a
    ```yaml
    MEDIA_VOLUME_PATH=/mnt/WD_1TB/media
    ``` 
+
+3. **Once the above are created you should create folders for your media.**
+
+   *  It is best practice to organize by media type - for example, if your media directory is `/mnt/media`:
+
+      * movies should should go in `/mnt/media/movies`
+
+      * tv shows should go in `/mnt/media/tv`
 
 ### Manually hardcode volume mounts in docker-compose.yml
 

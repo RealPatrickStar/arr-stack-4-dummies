@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/jtmb">
-    <img src="https://m.media-amazon.com/images/I/81lEZsk5bZL._AC_UF1000,1000_QL80_.jpg" alt="Logo" width="125" height="125">
+    <img src="https://m.media-amazon.com/images/I/81lEZsk5bZL._AC_UF1000,1000_QL80_.jpg" alt="Logo" width="125" height="150">
   </a>
 </h1>
 

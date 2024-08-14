@@ -94,6 +94,9 @@ services:
   nzbget:
     image: linuxserver/nzbget:latest
     container_name: nzbget
+    environment:
+      - PUID=1000
+      - PGID=1000
     ports:
       - "6789:6789"
     volumes:

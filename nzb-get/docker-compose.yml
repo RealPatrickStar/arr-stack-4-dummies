@@ -1,4 +1,4 @@
-version: '3.8'
+---
 
 services:
   plex:
@@ -98,5 +98,5 @@ services:
       - "6789:6789"
     volumes:
       - ${VOLUME_PATH}/nzbget-config:/config
-      - ${VOLUME_PATH}/nzbget-downloads:/downloads
+      - ${MEDIA_VOLUME_PATH}/downloads:/downloads
     restart: unless-stopped

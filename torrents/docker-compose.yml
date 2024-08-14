@@ -1,4 +1,4 @@
-version: '3.8'
+---
 
 services:
   plex:
@@ -110,7 +110,7 @@ services:
   qbittorrent:
     container_name: qbittorrent
     image: lscr.io/linuxserver/qbittorrent:latest
-    network_mode: service:nordvpn
+    network_mode: service:vpn
     depends_on:
       - vpn
     restart: unless-stopped

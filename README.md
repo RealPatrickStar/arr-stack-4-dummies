@@ -6,6 +6,7 @@
 
 <div align="center">
   <b>ARR-STACK 4 Dummies</b> - a beginner driven docker compose configuration designed to deploy a set of popular media management tools.
+  This project is intended to provide an a fun, easy to undersatand baseline for newcommers to selfhost their own media server .
   <br />
   <br />
   <a href="https://github.com/jtmb/retropie/issues/new?assignees=&labels=bug&title=bug%3A+">Report a Bug</a>
@@ -129,6 +130,11 @@ The name of your stack in docker.
 VOLUME_PATH=/mnt/container-program-files
 ```  
 The path where your container volume mounts whill be stored. 
+
+```yml
+MEDIA_VOLUME_PATH=/mnt/media
+```  
+The path where your media whill be stored. 
 
 ```yml
 VPN_SERVICE_PROVIDER=nord

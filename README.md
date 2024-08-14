@@ -91,7 +91,7 @@
 
 ### Getting Started
 
-Make sure you are in your ``$HOME`` directory:
+Make sure you are in your ``$HOME`` directory of the server or computer you want to deploy on:
 
 ```shell 
 cd $HOME

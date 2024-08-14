@@ -10,11 +10,12 @@
   <br />
   <a href="https://github.com/jtmb/retropie/issues/new?assignees=&labels=bug&title=bug%3A+">Report a Bug</a>
 </div>
+
 <br>
 <details open="open">
 <summary>Table of Contents</summary>
 
-
+- [ARR Software included](#arr-software-included)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started) 
 - [Environment Variables Explained](#environment-variables-explained)
@@ -26,6 +27,60 @@
 
 ---
 <br>
+
+# ARR Software included
+<br>
+
+<b>NZB Stack </b> -
+ [Overseerr](https://overseerr.dev/),
+ [Sonarr](https://sonarr.tv/),
+ [Radarr](https://radarr.video/),
+ [Bazarr](https://www.bazarr.media/),
+ [Plex](https://www.plex.tv/),
+ [Tautulli](https://tautulli.com/),
+ [NZB-get](https://nzbget.net/)
+
+
+
+<h1 align="left">
+  
+  <a>
+    <img src="https://user-images.githubusercontent.com/1066576/125193232-b41d8900-e28e-11eb-801b-3b643f672536.png" alt="Logo" width="50" height="50">
+    <img src="https://res.cloudinary.com/razordarkamg/image/upload/v1621212884/SonarrV3_pufacd.png" alt="Logo" width="50" height="50">
+    <img src="https://static-00.iconduck.com/assets.00/radarr-icon-1845x2048-97le6lim.png" alt="Logo" width="50" height="50">
+    <img src="https://static-00.iconduck.com/assets.00/bazarr-icon-1024x1024-r79rssva.png" alt="Logo" width="50" height="50">
+    <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/plex_macos_bigsur_icon_189825.png" alt="Logo" width="50" height="50">
+    <img src="https://styles.redditmedia.com/t5_75bbd/styles/communityIcon_dsn6jjf37ja11.png" alt="Logo" width="50" height="50">
+    <img src="https://avatars.githubusercontent.com/u/3368377?s=200&v=4" alt="Logo" width="50" height="50">
+  </a>
+</h1>
+
+<br>
+
+<b>Torrent Stack </b> -
+ [Overseerr](https://overseerr.dev/),
+ [Sonarr](https://sonarr.tv/),
+ [Radarr](https://radarr.video/),
+ [Bazarr](https://www.bazarr.media/),
+ [Plex](https://www.plex.tv/),
+ [Tautulli](https://tautulli.com/),
+ [Jackett](https://github.com/Jackett/Jackett),
+ [Gluetun VPN](https://github.com/qdm12/gluetun),
+ [Qbittorrent](https://docs.linuxserver.io/images/docker-qbittorrent/)
+
+<h1 align="left">
+  <a>
+    <img src="https://user-images.githubusercontent.com/1066576/125193232-b41d8900-e28e-11eb-801b-3b643f672536.png" alt="Logo" width="50" height="50">
+    <img src="https://res.cloudinary.com/razordarkamg/image/upload/v1621212884/SonarrV3_pufacd.png" alt="Logo" width="50" height="50">
+    <img src="https://static-00.iconduck.com/assets.00/radarr-icon-1845x2048-97le6lim.png" alt="Logo" width="50" height="50">
+    <img src="https://static-00.iconduck.com/assets.00/bazarr-icon-1024x1024-r79rssva.png" alt="Logo" width="50" height="50">
+    <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/plex_macos_bigsur_icon_189825.png" alt="Logo" width="50" height="50">
+    <img src="https://styles.redditmedia.com/t5_75bbd/styles/communityIcon_dsn6jjf37ja11.png" alt="Logo" width="50" height="50">
+    <img src="https://user-images.githubusercontent.com/27040483/28728094-99f3e3f6-73c7-11e7-8f8d-28912dc6ac0d.png" alt="Logo" width="50" height="50">
+    <img src="https://raw.githubusercontent.com/qdm12/gluetun/master/title.svg" alt="Logo" width="50" height="50">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/New_qBittorrent_Logo.svg/1200px-New_qBittorrent_Logo.svg.png" alt="Logo" width="50" height="50">
+  </a>
+</h1>
 
 ## Prerequisites
 - Docker installed on your system.

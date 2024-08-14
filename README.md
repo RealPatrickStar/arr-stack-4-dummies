@@ -11,21 +11,8 @@
   <a href="https://github.com/jtmb/retropie/issues/new?assignees=&labels=bug&title=bug%3A+">Report a Bug</a>
 </div>
 
+
 <br>
-<details open="open">
-<summary>Table of Contents</summary>
-
-- [ARR Software included](#arr-software-included)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started) 
-- [Environment Variables Explained](#environment-variables-explained)
-- [Contributing](#contributing)
-- [License](#license)
-
-</details>
-<br>
-
----
 <br>
 
 # ARR Software included
@@ -81,6 +68,25 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/New_qBittorrent_Logo.svg/1200px-New_qBittorrent_Logo.svg.png" alt="Logo" width="50" height="50">
   </a>
 </h1>
+
+
+
+
+<br>
+<details open="open">
+<summary>Table of Contents</summary>
+
+- [ARR Software included](#arr-software-included)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started) 
+- [Environment Variables Explained](#environment-variables-explained)
+- [Contributing](#contributing)
+- [License](#license)
+
+</details>
+<br>
+
+---
 
 ## Prerequisites
 - Docker installed on your system.

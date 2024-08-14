@@ -11,8 +11,6 @@
   <a href="https://github.com/jtmb/retropie/issues/new?assignees=&labels=bug&title=bug%3A+">Report a Bug</a>
 </div>
 
-
-<br>
 <br>
 
 # ARR Software included

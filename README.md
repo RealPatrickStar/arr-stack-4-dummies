@@ -88,6 +88,7 @@
 ---
 
 ## Prerequisites
+- Linux
 - Docker installed on your system.
 
 ### Getting Started

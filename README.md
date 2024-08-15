@@ -15,7 +15,6 @@
 <br>
 
 # ARR Software included
-<br>
 
 <b>NZB Stack </b> -
  [Overseerr](https://overseerr.dev/),

@@ -29,7 +29,7 @@
 
 <h1 align="left">
   
-  <a href="https://github.com/jtmb/arr-stack-4-dummies">
+  <a href="https://github.com/jtmb/arr-stack-4-dummies?tab=readme-ov-file#arr-software-included">
     <img src="https://user-images.githubusercontent.com/1066576/125193232-b41d8900-e28e-11eb-801b-3b643f672536.png" alt="Logo" width="50" height="50">
     <img src="https://res.cloudinary.com/razordarkamg/image/upload/v1621212884/SonarrV3_pufacd.png" alt="Logo" width="50" height="50">
     <img src="https://static-00.iconduck.com/assets.00/radarr-icon-1845x2048-97le6lim.png" alt="Logo" width="50" height="50">
@@ -54,7 +54,7 @@
  [Qbittorrent](https://docs.linuxserver.io/images/docker-qbittorrent/)
 
 <h1 align="left">
-  <a href="https://github.com/jtmb/arr-stack-4-dummies">
+  <a href="https://github.com/jtmb/arr-stack-4-dummies?tab=readme-ov-file#arr-software-included">
     <img src="https://user-images.githubusercontent.com/1066576/125193232-b41d8900-e28e-11eb-801b-3b643f672536.png" alt="Logo" width="50" height="50">
     <img src="https://res.cloudinary.com/razordarkamg/image/upload/v1621212884/SonarrV3_pufacd.png" alt="Logo" width="50" height="50">
     <img src="https://static-00.iconduck.com/assets.00/radarr-icon-1845x2048-97le6lim.png" alt="Logo" width="50" height="50">

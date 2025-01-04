@@ -109,7 +109,7 @@ services:
       - SERVER_REGIONS=${SERVER_REGIONS}
       - VPN_TYPE=${VPN_TYPE}
     volumes:
-      -${VOLUME_PATH}/gluetun/tmp:/tmp/gluetun
+      - ${VOLUME_PATH}/gluetun/tmp:/tmp/gluetun
 
   qbittorrent:
     container_name: qbittorrent

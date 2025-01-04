@@ -11,6 +11,7 @@ services:
       - PUID=1000
       - PGID=1000
       - VERSION=docker
+      - PLEX_CLAIM=claim-gFy5W5jmAKTjgsznhk1A
     ports:
       - 32400:32400
     restart: unless-stopped

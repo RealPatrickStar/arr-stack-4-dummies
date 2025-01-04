@@ -21,7 +21,7 @@ services:
     ports:
       - "5055:5055"
     volumes:
-      - ${VOLUME_PATH}/overseerr-config:/app/config
+      - ${VOLUME_PATH}/overseerr-config:/config
     environment:
       - LOG_LEVEL=info
     restart: unless-stopped

@@ -36,7 +36,7 @@ services:
       - PGID=1000
     volumes:
       - ${VOLUME_PATH}/radarr-config:/config
-      - ${MEDIA_VOLUME_PATH}/radarr/media/movies:/media/movies
+      - ${MEDIA_VOLUME_PATH}/media:/media
       - ${MEDIA_VOLUME_PATH}/downloads:/downloads
     restart: unless-stopped
 
@@ -50,7 +50,7 @@ services:
       - PGID=1000
     volumes:
       - ${VOLUME_PATH}/sonarr-config:/config
-      - ${MEDIA_VOLUME_PATH}/sonarr/media/tv:/media/tv
+      - ${MEDIA_VOLUME_PATH}/media:/media
       - ${MEDIA_VOLUME_PATH}/downloads:/downloads
     restart: unless-stopped
 

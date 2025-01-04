@@ -3,6 +3,8 @@
 services:
   plex:
     image: lscr.io/linuxserver/plex:latest
+    devices:
+      - /dev/dri:/dev/dri
     container_name: plex
     volumes:
       - ${VOLUME_PATH}/plex-config:/config
@@ -11,7 +13,7 @@ services:
       - PUID=1000
       - PGID=1000
       - VERSION=docker
-      - PLEX_CLAIM=claim-gFy5W5jmAKTjgsznhk1A
+      - PLEX_CLAIM=claim-gFy5W5jmAKTjgsznhk1A #https://www.plex.tv/claim/
     ports:
       - 32400:32400
     restart: unless-stopped

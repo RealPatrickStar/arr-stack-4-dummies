@@ -100,12 +100,16 @@ services:
       - 8112:8112 ##qbit
       - 6881:6881 ##qbit
       - 6881:6881/udp #qbit
+    devices:
+      - /dev/net/tun:/dev/net/tun
     environment:
       - VPN_SERVICE_PROVIDER=${VPN_SERVICE_PROVIDER}
       - OPENVPN_USER=${OPENVPN_USER}
       - OPENVPN_PASSWORD=${OPENVPN_PASSWORD}
       - SERVER_REGIONS=${SERVER_REGIONS}
       - VPN_TYPE=${VPN_TYPE}
+    volumes:
+      -${VOLUME_PATH}/gluetun/tmp:/tmp/gluetun
 
   qbittorrent:
     container_name: qbittorrent

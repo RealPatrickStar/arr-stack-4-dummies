@@ -21,7 +21,7 @@ services:
     ports:
       - "5055:5055"
     volumes:
-      - ${VOLUME_PATH}/overseerr-config:/config
+      - ${VOLUME_PATH}/overseerr-config:/app/config
     environment:
       - LOG_LEVEL=info
     restart: unless-stopped
@@ -36,7 +36,7 @@ services:
       - PGID=1000
     volumes:
       - ${VOLUME_PATH}/radarr-config:/config
-      - ${MEDIA_VOLUME_PATH}/media:/media
+      - ${MEDIA_VOLUME_PATH}/media:/media/movies
       - ${MEDIA_VOLUME_PATH}/downloads:/downloads
     restart: unless-stopped
 
@@ -50,7 +50,7 @@ services:
       - PGID=1000
     volumes:
       - ${VOLUME_PATH}/sonarr-config:/config
-      - ${MEDIA_VOLUME_PATH}/media:/media
+      - ${MEDIA_VOLUME_PATH}/media:/media/tv
       - ${MEDIA_VOLUME_PATH}/downloads:/downloads
     restart: unless-stopped
 

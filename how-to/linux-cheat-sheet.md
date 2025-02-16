@@ -3,6 +3,11 @@
 ```bash
 # DIR Navigation
 
+# full current folder path 
+pwd
+# /home/batman/arr-stack-4-dummies/torrents
+# /mnt/media/media/movies
+
 #cd parent
 cd .. 
 

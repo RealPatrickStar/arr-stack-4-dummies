@@ -7,3 +7,12 @@
   420  sudo systemctl enable nmbd
   421  sudo systemctl restart smbd
   422  sudo systemctl restart nmbd
+
+
+  config :
+
+[share]
+path = /mnt/media/media
+browseable = yes
+read only = no
+guest ok = no

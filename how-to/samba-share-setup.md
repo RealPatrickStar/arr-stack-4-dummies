@@ -16,3 +16,10 @@ path = /mnt/media/media
 browseable = yes
 read only = no
 guest ok = no
+
+
+[share]
+path = /mnt/media/media
+browseable = yes
+read only = no
+guest ok = yes

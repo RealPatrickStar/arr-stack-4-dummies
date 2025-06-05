@@ -10,6 +10,7 @@ services:
     volumes:
       - ${VOLUME_PATH}/plex-config:/config
       - ${MEDIA_VOLUME_PATH}/media:/data
+      - /mnt/external_hard_drive:/manualmedia
     environment:
       - PUID=1000
       - PGID=1000
